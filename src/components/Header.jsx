@@ -1,4 +1,4 @@
-import { FaSearch , FaRegBell, FaChevronDown } from "react-icons/fa";
+import { FaSearch , FaRegBell, FaChevronDown, FaGlobe } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -24,7 +24,7 @@ const Header = () => {
 
         {/* Language */}
         <div className="flex items-center gap-2 text-sm text-gray-600 cursor-pointer">
-          <span>🇺🇸 Eng (US)</span>
+          <FaGlobe className="text-indigo-500"/><span> Eng (US)</span>
           <FaChevronDown className="text-xs" />
         </div>
 
