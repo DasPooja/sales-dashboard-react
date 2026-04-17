@@ -9,7 +9,7 @@ const StatCard = ({ title, value, color, icon, circleColor, summaryText }) => {
 
         <h2 className="text-[16px] font-bold mt-2">{value}</h2>
         <p className="text-xs font-semibold mt-1">{title}</p>
-        <p className="text-[9px] font-semibold text-indigo-500 mt-1">{summaryText}</p>
+        <p className="text-[9px] font-semibold text-indigo-500 mt-1 truncate">{summaryText}</p>
     </div>
   );
 };
